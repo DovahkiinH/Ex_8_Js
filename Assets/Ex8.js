@@ -40,3 +40,7 @@ m++;
 
 /* Script multiples */
 
+var N = window.prompt("Entrer une valeur pour N");
+var X = window.prompt("Entrer une valeur pour X");
+
+
