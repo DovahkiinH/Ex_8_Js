@@ -37,3 +37,6 @@ m++;
 
 
 }while ((entier1 = 0) || (entier2 = 0) || (entiersup = 0))
+
+/* Script multiples */
+
