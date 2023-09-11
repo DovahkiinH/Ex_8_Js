@@ -40,7 +40,17 @@ m++;
 
 /* Script multiples */
 
-var N = window.prompt("Entrer une valeur pour N");
 var X = window.prompt("Entrer une valeur pour X");
+var N2 = window.prompt("Entrer une valeur pour N");
+var R = 0
 
+for (R = 0; R <= N2 ; R++)
+{
+    resultat = X * R;
+
+    alert(X + "x" + R + " " + "=" + " " + resultat);
+}
+
+
+/* Script nombre de voyelles */
 
