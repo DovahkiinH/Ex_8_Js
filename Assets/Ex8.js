@@ -7,7 +7,7 @@ do{
     i++;
     var prenom = window.prompt("Saisissez le prénom N°" + i + " " + "ou Clic sur Annuler pour arrêter la saisie.");
 
-}while (prenom != null);
+}while (prenom != "");
 
 /* Script entier inférieurs à N */
 
