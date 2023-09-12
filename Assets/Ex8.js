@@ -54,3 +54,14 @@ for (R = 0; R <= N2 ; R++)
 
 /* Script nombre de voyelles */
 
+var mot = window.prompt("Veuillez saisir un mot :");
+var nbVoyelles = 0;
+
+for (i = 0; i < mot.length; i++) {
+    var lettre = mot[i].toLowerCase();
+    if ((lettre === "a") || (lettre === "e") || (lettre === "i") || (lettre ==="o") || (lettre === "u") || (lettre === "y")) {
+        nbVoyelles ++;
+    }
+}
+
+alert("Ce mot contient" + " " + nbVoyelles + " " + "voyelles.");
