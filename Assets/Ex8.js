@@ -26,6 +26,7 @@ m = 3;
 var entier1 = window.prompt("Choisissez un nombre :");
 var entier2 = window.prompt("Choisissez le second nombre");
 var somme = +entier1 + +entier2;
+
 do {
 
 var entiersup = window.prompt("Choisissez un nombre suplémentaire");
@@ -34,9 +35,7 @@ var moyenne = somme / m;
 alert("la somme de ces nombres est :" + " " + somme + " " + " et la moyenne est :" + " " + moyenne);
 m++;
 
-
-
-}while ((entier1 = 0) || (entier2 = 0) || (entiersup = 0))
+}while ((entier1 == 0) || (entier2 == 0) || (entiersup == 0))
 
 /* Script multiples */
 
@@ -57,7 +56,7 @@ for (R = 0; R <= N2 ; R++)
 var mot = window.prompt("Veuillez saisir un mot :");
 var nbVoyelles = 0;
 
-for (i = 0; i < mot.length; i++) {
+for (c = 0; c < mot.length; c++) {
     var lettre = mot[i].toLowerCase();
     if ((lettre === "a") || (lettre === "e") || (lettre === "i") || (lettre ==="o") || (lettre === "u") || (lettre === "y")) {
         nbVoyelles ++;
